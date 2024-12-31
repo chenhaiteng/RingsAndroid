@@ -115,7 +115,7 @@ fun RingText(modifier: Modifier,
              outline: Float = 0.0f,
              outlineColor: Color? = null,
              brush: Brush? = null,
-             blendMode: BlendMode = BlendMode.DstIn,
+             blendMode: BlendMode = BlendMode.Src,
              showBlueprint: Boolean = false) {
     val context = LocalContext.current
     val measurer = rememberTextMeasurer()
